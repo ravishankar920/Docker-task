@@ -24,7 +24,7 @@ resource "aws_instance" "webserver1" {
     Name = "webserver1-${count.index}"
   }
   associate_public_ip_address = "true"
-  key_name = "main"
+  key_name = "jenkinsKP"
 }
 
 
